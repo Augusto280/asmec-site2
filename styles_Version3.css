@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  background: #004085;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 150px;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header ul li {
+  margin-left: 20px;
+}
+
+.header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro {
+  background: #e9ecef;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.intro-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.planos, .servicos, .tratamento {
+  padding: 2rem 0;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.servicos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.servicos ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.servicos ul li img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.contato {
+  background: #004085;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.btn-whatsapp img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
